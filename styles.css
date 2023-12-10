@@ -59,10 +59,6 @@ body {
         align-items: center;
     }
 
-    .contact_info_container {
-        align-items: center;
-    }
-
     .contact-info__block:not(:last-child) {
         margin-bottom: 20px;
     }
@@ -99,6 +95,17 @@ body {
 
 .contact-info__block--center {
 justify-content: center;
+}
+
+.contact-info__item {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+}
+
+.contact-info__item:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 .contact-info__item-icon-wrapper {
@@ -252,6 +259,6 @@ justify-content: center;
     margin-bottom: 20px;
 }
 
-.additiona-info__languages-item {
+.additional-info__languages-item {
     color: var(--secondary-text-color);
 }
